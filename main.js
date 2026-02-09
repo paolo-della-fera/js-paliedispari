@@ -70,3 +70,7 @@ const pcNumber = numberRandom();
 // stampo in console il numero inserito dall'utente e quello scleto dal pc 
 console.log('Numero Utente',userNumber);
 console.log('Numero PC',pcNumber);
+
+// effettuo la somma per vedere se il numero dato è pari o dispari 
+const sum = userNumber + pcNumber
+console.log("Somma:", sum);
