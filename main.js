@@ -40,4 +40,7 @@ console.log(result);
 // Pari e Dispari
 
 // inserisco il prompt per fare scegliere pari o dispari all'utente 
-const scelta = prompt("Scegli: pari o dispari");
+const evenOrOdd = prompt("Scegli: pari o dispari");
+
+// aggiungo il prompt per inserire un numero che sia tra 1 e 5
+const userNumber = parseInt(prompt("Inserisci un numero da 1 a 5"));
