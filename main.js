@@ -1,3 +1,5 @@
+// PALINDROMA
+
 // inizio chiededo la parola all'utente 
 const word = prompt('Scrivi qui la tua parola')
 
@@ -30,3 +32,12 @@ function palindromeWord(word) {
 // stampo il risultato in console
 const result = palindromeWord(word);
 console.log(result);
+
+
+// ------------------------------------------------------------------
+
+
+// Pari e Dispari
+
+// inserisco il prompt per fare scegliere pari o dispari all'utente 
+const scelta = prompt("Scegli: pari o dispari");
