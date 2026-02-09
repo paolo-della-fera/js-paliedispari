@@ -5,5 +5,7 @@ const word = prompt('Scrivi qui la tua parola')
 function palindromeWord(word) {
     let reverse_word = ''
 
-    
+    // trasformo la parola inserita dall'utente in Lower Case
+    word = word.toLowerCase();
+
 }
