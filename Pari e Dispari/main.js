@@ -14,12 +14,12 @@ function checkEvenOdd(number) {
 
     // SE il numero è pari 
     if (number % 2 === 0) {
-        return 'Pari';
+        return 'pari';
     }
 
     // ALTRIMENTI il numero è dispari
     else {
-        return 'Dispari';
+        return 'dispari';
     }
 }
 
