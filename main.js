@@ -49,3 +49,17 @@ const userNumber = parseInt(prompt("Inserisci un numero da 1 a 5"));
 function numberRandom() {
     return Math.floor(Math.random() * 5) + 1;
 }
+
+// creo la funzione per determinare se è pari o dispari 
+function chackEvenOdd(number) {
+    
+    // SE il numero è pari 
+    if (number % 2 === 0) {
+        return 'Pari';
+    }
+
+    // ALTRIMENTI il numero è dispari
+    else {
+        return 'Dispari';
+    }
+}
