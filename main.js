@@ -8,4 +8,9 @@ function palindromeWord(word) {
     // trasformo la parola inserita dall'utente in Lower Case
     word = word.toLowerCase();
 
+    // inverto la parola inserita dall'utente utilizzando il ciclo for 
+    for (let i = word.length - 1; i >= 0; i--) {
+        const char = word[i]
+        reverse_word += char
+    }
 }
