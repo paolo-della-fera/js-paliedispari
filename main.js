@@ -63,3 +63,10 @@ function chackEvenOdd(number) {
         return 'Dispari';
     }
 }
+
+// numero del pc
+const pcNumber = numberRandom();
+
+// stampo in console il numero inserito dall'utente e quello scleto dal pc 
+console.log('Numero Utente',userNumber);
+console.log('Numero PC',pcNumber);
