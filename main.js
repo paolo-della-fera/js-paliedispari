@@ -51,7 +51,7 @@ function numberRandom() {
 }
 
 // creo la funzione per determinare se è pari o dispari 
-function chackEvenOdd(number) {
+function checkEvenOdd(number) {
     
     // SE il numero è pari 
     if (number % 2 === 0) {
@@ -74,3 +74,7 @@ console.log('Numero PC',pcNumber);
 // effettuo la somma per vedere se il numero dato è pari o dispari 
 const sum = userNumber + pcNumber
 console.log("Somma:", sum);
+
+// controllo pari o dispari
+const result = checkEvenOdd(sum);
+console.log("La somma è:", result);
