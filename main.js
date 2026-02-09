@@ -44,3 +44,8 @@ const evenOrOdd = prompt("Scegli: pari o dispari");
 
 // aggiungo il prompt per inserire un numero che sia tra 1 e 5
 const userNumber = parseInt(prompt("Inserisci un numero da 1 a 5"));
+
+// inserisco la funzione che genera automaticamente il numero per il pc 
+function numberRandom() {
+    return Math.floor(Math.random() * 5) + 1;
+}
