@@ -26,3 +26,7 @@ function palindromeWord(word) {
         return false;
     }
 }
+
+// stampo il risultato in console
+const result = palindromeWord(word);
+console.log(result);
