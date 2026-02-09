@@ -13,4 +13,16 @@ function palindromeWord(word) {
         const char = word[i]
         reverse_word += char
     }
+
+    // SE la parola inserita è palindroma stampa la stringa e il valore booleano 
+    if (word === reverse_word) {
+        console.log("La parola è palindroma");
+        return true;
+    }
+
+    // ALTRIMENTI stampa che la parola non è palindroma e il false 
+    else {
+        console.log("La parola NON è palindroma");
+        return false;
+    }
 }
